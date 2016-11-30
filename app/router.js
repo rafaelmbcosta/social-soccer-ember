@@ -7,6 +7,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('top_strikers');
+  this.route('seasons');
 });
 
 export default Router;

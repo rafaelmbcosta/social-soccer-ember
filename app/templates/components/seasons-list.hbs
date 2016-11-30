@@ -1,0 +1,9 @@
+<h2>Temporadas</h2>
+
+<ul>
+  {{#each seasons as |season|}}
+    <li>{{season.number}} - {{season.id}}</li>
+  {{/each}}
+</ul>
+
+ultima: {{ seasons.lastObject.number }}
